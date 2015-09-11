@@ -21,8 +21,6 @@ class ListsController < ApplicationController
   def edit
   end
 
-  # POST /lists
-  # POST /lists.json
   def create
     @list = List.new(list_params)
 
@@ -36,6 +34,9 @@ class ListsController < ApplicationController
       end
     end
   end
+  #POST /lists
+  #POST /lists.json
+
 
   # PATCH/PUT /lists/1
   # PATCH/PUT /lists/1.json
