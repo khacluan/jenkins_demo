@@ -29,7 +29,6 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'shoulda-matchers', require: false
   gem 'faker'
-  gem 'faker_japanese'
   gem 'capybara'
   gem 'poltergeist'
   gem 'turnip'
